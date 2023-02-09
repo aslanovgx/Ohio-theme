@@ -5,7 +5,7 @@ const Design = () => {
   return (
     <section id="design">
       <div className="container">
-        <div className="row">
+        <div className="row mb-5">
           <div className="col-lg-6">
             <div className="design_left">
               <Fade bottom distance="20%" duration={800}>
