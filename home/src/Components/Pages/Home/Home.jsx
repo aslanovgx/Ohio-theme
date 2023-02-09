@@ -1,4 +1,5 @@
 import React from "react";
+import Awards from "./Awards/Awards";
 import Creative from "./Creative/Creative";
 import Design from "./Design/Design";
 import Services from "./Services/Services";
@@ -13,6 +14,7 @@ const Home = () => {
       <Stickers />
       <Creative />
       <Work />
+      <Awards />
     </main>
   );
 };
