@@ -5,8 +5,11 @@ const Creative = () => {
     <section id="creative">
       <div className="container">
         <div className="row">
-          <div className="col-lg-3">
-            <div className="creative_left"></div>
+          <div className="col-lg-5">
+            <div className="creative_left">
+              <p>CAPABILITIES</p>
+              <h1>Creative studio with art and technologies.</h1>
+            </div>
           </div>
         </div>
       </div>

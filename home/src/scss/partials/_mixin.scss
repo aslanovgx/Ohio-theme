@@ -148,3 +148,21 @@
     max-width: 468px;
   }
 }
+
+%centre_icon_copy {
+  position: absolute;
+  top: calc((100% - 58px) / 2);
+  left: calc((100% - 58px) / 2);
+  border-radius: 50%;
+
+  svg {
+    transition: 0.3s ease-in-out;
+    font-size: 58px;
+    border-radius: 50%;
+
+    &:hover {
+      transform: scale(1.05);
+      color: #d90a2c;
+    }
+  }
+}

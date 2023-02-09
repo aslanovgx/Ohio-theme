@@ -3,6 +3,7 @@ import Creative from "./Creative/Creative";
 import Design from "./Design/Design";
 import Services from "./Services/Services";
 import Stickers from "./Stickers/Stickers";
+import Work from "./Work/Work";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Services />
       <Stickers />
       <Creative />
+      <Work />
     </main>
   );
 };
