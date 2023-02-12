@@ -4,8 +4,8 @@ const Get = () => {
   return (
     <section id="get">
       <div className="container">
-        <div className="row">
-          <div className="col-lg-3">
+        <div className="row rt1">
+          <div className="col-lg-3 col-md-6 col-sm-12">
             <div className="get_header">
               <h5>Home </h5>
               <span> Contact: Agency</span>
@@ -13,7 +13,7 @@ const Get = () => {
           </div>
         </div>
         <div className="row rb2 pb-4">
-          <div className="col-lg-2">
+          <div className="col-lg-2 col-md-6 col-sm-12 c_top">
             <div className="get_box">
               <h1>Get in touch</h1>
               <p>
@@ -29,7 +29,7 @@ const Get = () => {
               </p>
             </div>
           </div>
-          <div className="col-lg-4 gb2">
+          <div className="col-lg-4 col-md-6 col-sm-12 gb2 c_top">
             <div className="get_box">
               {/* <h1>Get in touch</h1> */}
               <p>
@@ -45,7 +45,7 @@ const Get = () => {
               </p>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-6 col-sm-12 c_bottom">
             <div className="get_box">
               <h1>Post address</h1>
               <p>
@@ -57,7 +57,7 @@ const Get = () => {
               </p>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-6 col-sm-12 c_bottom">
             <div className="get_box">
               <h1>Social media</h1>
               <p id="special_p">
