@@ -1,0 +1,50 @@
+@import "./../../../../../../home/src/scss/style.scss";
+
+#back {
+  .container {
+    max-width: 1200px;
+  }
+
+  h1 {
+    font-family: "DM Sans", sans-serif;
+  }
+}
+
+#back {
+  padding: 100px 0 0 0;
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  .img_details {
+    position: relative;
+    z-index: 4;
+    margin-top: 100px;
+    padding-top: 32px;
+    h1 {
+      color: #ffffff;
+      font-size: 4rem;
+      letter-spacing: -0.035em;
+      font-weight: bold;
+    }
+
+    p {
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 1.05em;
+      max-width: 60%;
+      margin-top: 1.25rem;
+    }
+
+    .btn {
+      @extend %collab_btn_copy;
+      width: 150px;
+      padding: 4px 0;
+      gap: 0;
+      justify-content: center;
+      margin: 0;
+    }
+  }
+}
