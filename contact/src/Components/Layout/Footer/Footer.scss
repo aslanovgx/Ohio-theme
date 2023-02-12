@@ -14,6 +14,32 @@
   button {
     font-family: "DM Sans", sans-serif;
   }
+
+  .col-lg-3 {
+    @media (max-width: 992px) {
+      text-align: center;
+    }
+  }
+
+  .cf1 {
+    @media (max-width: 992px) {
+      align-self: center;
+    }
+  }
+
+  .cf1,
+  .cf2 {
+    @media (max-width: 992px) {
+      margin-bottom: 40px;
+    }
+  }
+
+  .cf3,
+  .cf4 {
+    @media (max-width: 992px) {
+      margin-bottom: 40px;
+    }
+  }
 }
 
 #footer1 {
@@ -121,6 +147,15 @@
       border-radius: 4px;
       margin-bottom: 1.25rem;
 
+      @media (max-width: 768px) {
+        width: 330px;
+        margin: 0 auto;
+      }
+
+      @media (max-width: 371px) {
+        width: 247px;
+      }
+
       input {
         background-color: transparent;
         border: none;
@@ -134,10 +169,18 @@
         min-height: 3rem;
         font-size: 1.025rem;
         font-weight: 500;
+
+        @media (max-width: 371px) {
+          font-size: 0.9rem;
+        }
       }
     }
 
     .okay {
+      @media (max-width: 768px) {
+        margin-top: 20px;
+      }
+
       input {
         width: 16px;
         height: 16px;
@@ -159,16 +202,30 @@
     @extend %d-flex;
     padding: 3vh 0;
   }
+
   .f1 {
     justify-content: start;
+
+    @media (max-width: 768px) {
+      justify-content: center;
+    }
   }
+
   .f2 {
     justify-content: end;
+
+    @media (max-width: 768px) {
+      justify-content: center;
+    }
   }
 
   p {
     @extend %foot2_box_p_copy;
     margin: 0;
+
+    @media (max-width: 828px) {
+      text-align: center;
+    }
 
     b {
       padding-left: 10px;
