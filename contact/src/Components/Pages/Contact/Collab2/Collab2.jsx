@@ -6,13 +6,13 @@ const Collab2 = () => {
     <section id="collab">
       <div className="container">
         <div className="row row_top">
-          <div className="col-lg-6">
+          <div className="col-lg-6 col-md-6 col-sm-6">
             <div className="collab_left">
               <p>CAREERS</p>
               <h1>Join our team.</h1>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 col-md-6 col-sm-6">
             <div className="collab_right">
               <span className="btn">
                 Contact us{" "}
