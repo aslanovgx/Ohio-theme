@@ -18,6 +18,10 @@
   padding: 35px 0;
 
   .form_login {
+    @media (max-width: 992px) {
+      margin-bottom: 20px;
+    }
+
     label {
       display: block;
       font-size: 1rem;
@@ -49,6 +53,10 @@
 
   .like_input {
     @extend %login_input_copy;
+
+    @media (max-width: 992px) {
+      margin-top: 20px;
+    }
   }
 
   .checkbox1 {
@@ -62,5 +70,9 @@
   .quote {
     @extend %footer_button_copy;
     justify-content: start;
+
+    @media (max-width: 347px) {
+      justify-content: center;
+    }
   }
 }
