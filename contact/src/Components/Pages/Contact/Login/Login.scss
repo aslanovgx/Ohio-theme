@@ -42,11 +42,8 @@
     }
 
     textarea {
+      padding: 10px 0 0 10px;
       @extend %login_input_copy;
-
-      &::placeholder {
-        padding: 10px 0 0 10px;
-      }
     }
   }
 
