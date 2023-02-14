@@ -1,4 +1,6 @@
 import React from "react";
+import "./Home.scss";
+
 import Awards from "./Awards/Awards";
 import Cards from "./Cards/Cards";
 import Collab from "./Collab/Collab";
@@ -8,7 +10,6 @@ import Fixed from "./Fixed/Fixed";
 import Services from "./Services/Services";
 import Stickers from "./Stickers/Stickers";
 import Work from "./Work/Work";
-
 const Home = () => {
   return (
     <main>

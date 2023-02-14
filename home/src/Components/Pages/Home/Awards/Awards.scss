@@ -32,6 +32,7 @@
     .award_day {
       width: calc(100% / 3);
       display: inline-block;
+
       .img {
         img {
           @extend %img-contain;
