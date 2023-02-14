@@ -2,6 +2,7 @@ import React from "react";
 import "./Navbar.scss";
 import { HiBars3BottomLeft } from "react-icons/hi2";
 import { AiOutlinePlus } from "react-icons/ai";
+import { HiOutlineBars2 } from "react-icons/hi2";
 
 const Navbar = () => {
   return (
@@ -10,9 +11,9 @@ const Navbar = () => {
         <div className="row">
           <div className="col-lg-2">
             <div className="nav1_left">
-              {/* <div className="nav1_icon">
-                <HiBars3BottomLeft />
-              </div> */}
+              <div className="nav1_icon">
+                <HiOutlineBars2 />
+              </div>
               <img
                 src="https://colabrio.ams3.cdn.digitaloceanspaces.com/ohio-stage-demo-1/YbUt6che-OhioLogo.svg"
                 alt=""
@@ -367,9 +368,9 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="col-lg-2">
-            {/* <div className="nav1_right">
+            <div className="nav1_right">
               <p>Let's talk</p>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
