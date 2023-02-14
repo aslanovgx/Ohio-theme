@@ -1,0 +1,78 @@
+@import "./../../../../../../contact/src/scss/style.scss";
+
+#login {
+  .container {
+    max-width: 1200px;
+  }
+
+  h1 {
+    font-family: "DM Sans", sans-serif;
+  }
+
+  .cl4_s {
+    align-self: flex-end;
+  }
+}
+
+#login {
+  padding: 35px 0;
+
+  .form_login {
+    @media (max-width: 992px) {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      font-size: 1rem;
+      font-weight: 500;
+      line-height: 1.6;
+      color: #161519;
+      margin-bottom: 0.5rem;
+    }
+
+    input {
+      width: 100%;
+      border-radius: 5px;
+      min-height: 3rem;
+      background-color: rgba(150, 144, 162, 0.08);
+      font-size: 1.025rem;
+      padding: 0 1rem;
+      border: none;
+
+      &::placeholder {
+        font-size: 1.025rem;
+      }
+    }
+
+    textarea {
+      padding: 10px 0 0 10px;
+      @extend %login_input_copy;
+    }
+  }
+
+  .like_input {
+    @extend %login_input_copy;
+
+    @media (max-width: 992px) {
+      margin-top: 20px;
+    }
+  }
+
+  .checkbox1 {
+    @extend %footer_checkbox_copy;
+
+    h5 {
+      font-size: 0.95rem;
+    }
+  }
+
+  .quote {
+    @extend %footer_button_copy;
+    justify-content: start;
+
+    @media (max-width: 347px) {
+      justify-content: center;
+    }
+  }
+}
