@@ -35,9 +35,15 @@
   .table_img {
     @extend %d-flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
     img {
       width: 376px;
+
+      @media (max-width: 560px) {
+        width: 100%;
+        margin-bottom: 30px;
+      }
     }
 
     &:first-child {
@@ -64,12 +70,17 @@
       font-size: calc(2rem + 0.25 * ((100vw - 576px) / 864));
       color: #111013;
       font-weight: bold;
+
+      @media (max-width: 560px) {
+        font-size: 1.5rem;
+      }
     }
 
     .h5 {
       font-weight: 400;
       font-size: 1.1rem;
       margin-top: 1rem;
+
       b {
         font-weight: 600;
       }
@@ -79,40 +90,48 @@
       font-size: 0.95em;
       margin-top: 0.75rem;
       font-weight: 400;
+
       b {
         font-weight: 700;
       }
     }
+
     #border_p {
       padding-bottom: 1rem;
       border-bottom: 1px solid rgba(150, 144, 162, 0.15);
     }
+
     h4 {
       line-height: 1;
       font-size: 0.9rem;
       font-weight: 500;
     }
+
     span {
       display: inline-block;
+
       span {
         background-color: transparent;
         padding: 2px 4px;
       }
     }
+
     .collab_right {
       margin-top: 20px;
-      .btn {
-        @extend %collab_btn_copy;
-        display: inline-flex;
-        padding: 8px 0 8px 1.4rem;
-        background-color: #111013;
-        margin-right: 15px;
-        &:last-child {
-          padding: 8px;
-          background-color: transparent;
-          color: black;
-          border: 2px solid #111013;
-        }
+    }
+
+    .btn {
+      @extend %collab_btn_copy;
+      display: inline-flex;
+      padding: 8px 0 8px 1.4rem;
+      background-color: #111013;
+      margin-right: 15px;
+
+      &:last-child {
+        padding: 8px;
+        background-color: transparent;
+        color: black;
+        border: 2px solid #111013;
       }
     }
   }
