@@ -1,22 +1,18 @@
 import React from "react";
-import "./../Collab/Collab.scss";
+import "./Collab.scss";
 import { HiArrowRight } from "react-icons/hi";
-const Collab = () => {
+const Collab2 = () => {
   return (
     <section id="collab">
       <div className="container">
         <div className="row row_top">
-          <div className="col-lg-6">
+          <div className="col-lg-6 col-md-6 col-sm-6">
             <div className="collab_left">
-              <p>COLLABORATION</p>
-              <h1>
-                Got a project?
-                <br />
-                Let's talk.
-              </h1>
+              <p>CAREERS</p>
+              <h1>Join our team.</h1>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 col-md-6 col-sm-6">
             <div className="collab_right">
               <span className="btn">
                 Contact us{" "}
@@ -45,4 +41,4 @@ const Collab = () => {
   );
 };
 
-export default Collab;
+export default Collab2;
