@@ -8,6 +8,21 @@
   .row {
     position: relative;
   }
+
+  .col-lg-8 {
+    @media (max-width: 1024px) {
+      display: none;
+    }
+  }
+
+  .col-lg-2 {
+    @media (max-width: 1024px) {
+      width: 50%;
+      padding: 0;
+    }
+  }
+
+  transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 0.35s;
 }
 
 #nav1 {
@@ -256,6 +271,77 @@ img {
 
     &:hover {
       background-color: $nav1_hover_color;
+    }
+  }
+}
+
+#nav1_mobile {
+  li {
+    font-family: "DM Sans", sans-serif;
+  }
+}
+
+#nav1_mobile {
+  transform: translateX(-100%);
+  padding: 20px 0 0 40px;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  overflow: scroll;
+  background-color: white;
+  width: 90%;
+  height: 100vh;
+  transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 0.35s;
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      @extend %d-flex;
+      justify-content: space-between;
+      font-size: 1.05em;
+      margin: 0;
+      line-height: 2.6em;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+
+      &:hover {
+        color: #dc2828;
+      }
+
+      &:first-child {
+        margin-bottom: 30px;
+      }
+
+      svg {
+        font-size: 38px;
+        cursor: pointer;
+      }
+
+      .plus_navbar {
+        font-size: 15px;
+        transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 0.35s;
+      }
+    }
+
+    .elements_portfolio,
+    .portfolio_portfolio {
+      height: 0;
+      overflow: hidden;
+      transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 0.35s;
+      li {
+        transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 0.35s;
+        &:first-child {
+          display: none;
+        }
+
+        li {
+          padding-left: 10px;
+        }
+      }
     }
   }
 }

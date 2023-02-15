@@ -7,7 +7,7 @@ const Work = () => {
   return (
     <section id="work">
       <div className="container-fluid">
-        <div className="row mb-5">
+        <div className="row row_gg ">
           <div className="col-lg-7">
             <div className="work_img">
               <img
@@ -16,7 +16,7 @@ const Work = () => {
               />
             </div>
           </div>
-          <div className="col-lg-5">
+          <div className="col-lg-5 col-md-6 col-sm-12">
             <div className="work_right">
               <div className="centre_icon">
                 <BsFillPlayCircleFill />
@@ -42,7 +42,7 @@ const Work = () => {
       </div>
       <div className="container">
         <div className="row mb-4">
-          <div className="col-lg-2">
+          <div className="col-lg-2 col-md-6 col-sm-12">
             <div className="work_logo">
               <img
                 src="https://colabrio.ams3.cdn.digitaloceanspaces.com/ohio-stage-demo-1/LogoSC-min.png"
@@ -50,7 +50,7 @@ const Work = () => {
               />
             </div>
           </div>
-          <div className="col-lg-2">
+          <div className="col-lg-2 col-md-6 col-sm-12">
             <div className="work_logo">
               <img
                 src="https://colabrio.ams3.cdn.digitaloceanspaces.com/ohio-stage-demo-1/LogoSC-2-min.png"
@@ -58,7 +58,7 @@ const Work = () => {
               />
             </div>
           </div>
-          <div className="col-lg-2">
+          <div className="col-lg-2 col-md-6 col-sm-12">
             <div className="work_logo">
               <img
                 src="https://colabrio.ams3.cdn.digitaloceanspaces.com/ohio-stage-demo-1/LogoSC-4-min.png"
@@ -66,7 +66,7 @@ const Work = () => {
               />
             </div>
           </div>
-          <div className="col-lg-2">
+          <div className="col-lg-2 col-md-6 col-sm-12">
             <div className="work_logo">
               <img
                 src="https://colabrio.ams3.cdn.digitaloceanspaces.com/ohio-stage-demo-1/LogoSC-6-min.png"
@@ -74,7 +74,7 @@ const Work = () => {
               />
             </div>
           </div>
-          <div className="col-lg-2">
+          <div className="col-lg-2 col-md-6 col-sm-12">
             <div className="work_logo">
               <img
                 src="https://colabrio.ams3.cdn.digitaloceanspaces.com/ohio-stage-demo-1/LogoSC-8-min.png"
@@ -82,7 +82,7 @@ const Work = () => {
               />
             </div>
           </div>
-          <div className="col-lg-2">
+          <div className="col-lg-2 col-md-6 col-sm-12">
             <div className="work_logo">
               <img
                 src="https://colabrio.ams3.cdn.digitaloceanspaces.com/ohio-stage-demo-1/LogoSC-10-min.png"
@@ -92,7 +92,7 @@ const Work = () => {
           </div>
         </div>
         <div className="row mb-5">
-          <div className="col-lg-2">
+          <div className="col-lg-2 col-md-6 col-sm-12">
             <div className="work_logo">
               <img
                 src="https://colabrio.ams3.cdn.digitaloceanspaces.com/ohio-stage-demo-1/LogoSC-1-min.png"
@@ -100,7 +100,7 @@ const Work = () => {
               />
             </div>
           </div>
-          <div className="col-lg-2">
+          <div className="col-lg-2 col-md-6 col-sm-12">
             <div className="work_logo">
               <img
                 src="https://colabrio.ams3.cdn.digitaloceanspaces.com/ohio-stage-demo-1/LogoSC-3-min.png"
@@ -108,7 +108,7 @@ const Work = () => {
               />
             </div>
           </div>
-          <div className="col-lg-2">
+          <div className="col-lg-2 col-md-6 col-sm-12">
             <div className="work_logo">
               <img
                 src="https://colabrio.ams3.cdn.digitaloceanspaces.com/ohio-stage-demo-1/LogoSC-5-min.png"
@@ -116,7 +116,7 @@ const Work = () => {
               />
             </div>
           </div>
-          <div className="col-lg-2">
+          <div className="col-lg-2 col-md-6 col-sm-12">
             <div className="work_logo">
               <img
                 src="https://colabrio.ams3.cdn.digitaloceanspaces.com/ohio-stage-demo-1/LogoSC-7-min.png"
@@ -124,7 +124,7 @@ const Work = () => {
               />
             </div>
           </div>
-          <div className="col-lg-2">
+          <div className="col-lg-2 col-md-6 col-sm-12">
             <div className="work_logo">
               <img
                 src="https://colabrio.ams3.cdn.digitaloceanspaces.com/ohio-stage-demo-1/LogoSC-9-min.png"
@@ -132,7 +132,7 @@ const Work = () => {
               />
             </div>
           </div>
-          <div className="col-lg-2">
+          <div className="col-lg-2 col-md-6 col-sm-12">
             <div className="work_logo">
               <img
                 src="https://colabrio.ams3.cdn.digitaloceanspaces.com/ohio-stage-demo-1/LogoSC-11-min.png"

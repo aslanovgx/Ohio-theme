@@ -6,7 +6,7 @@ const Stickers = () => {
     <section id="stickers">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-lg-4">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="left_img">
               <img
                 src="https://colabrio.ams3.cdn.digitaloceanspaces.com/ohio-stage-demo-1/zdfLZADL-oh__demo31__1.jpeg"
@@ -28,7 +28,7 @@ const Stickers = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-8">
+          <div className="col-lg-8 col-md-6 col-sm-12">
             <div className="right_img">
               <img
                 src="https://colabrio.ams3.cdn.digitaloceanspaces.com/ohio-stage-demo-1/oh__img25-1920x1076.jpeg"
@@ -49,7 +49,7 @@ const Stickers = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-lg-8">
+          <div className="col-lg-8 col-md-6 col-sm-12">
             <div className="right_img">
               <img
                 src="https://colabrio.ams3.cdn.digitaloceanspaces.com/ohio-stage-demo-1/drZ4vTCS-oh__img95-1920x1076.jpeg"
@@ -71,7 +71,7 @@ const Stickers = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="left_img">
               <img
                 src="https://colabrio.ams3.cdn.digitaloceanspaces.com/ohio-stage-demo-1/zxDVPhmF-oh__img31.jpeg"
