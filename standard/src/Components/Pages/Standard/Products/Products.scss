@@ -1,0 +1,102 @@
+@import "./../../../../../../home/src/scss/style.scss";
+
+#products {
+  .container {
+    max-width: 1200px;
+  }
+
+  span,
+  h5 {
+    color: #161519;
+  }
+
+  h1,
+  li,
+  p {
+    font-family: "DM Sans", sans-serif;
+  }
+}
+
+#products {
+  margin-top: 64px;
+
+  .products_header {
+    h1 {
+      font-size: 1.55rem;
+      margin-bottom: 3vh;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+  }
+
+  .product_box {
+    &:hover {
+      .product_img {
+        img {
+          transform: scale(1.05);
+        }
+        .collab_right {
+          bottom: 10px;
+        }
+      }
+    }
+    .product_img {
+      position: relative;
+      overflow: hidden;
+      img {
+        @extend %img-cover;
+        width: 100%;
+        border-radius: 6px;
+        transform: scale(1);
+        transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 0.25s;
+        overflow: hidden;
+      }
+
+      .collab_right {
+        transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 0.25s;
+        position: absolute;
+        bottom: -50px;
+        left: calc((376px - 308px) / 2);
+
+        .btn {
+          @extend %collab_btn_copy;
+          display: inline-flex;
+          padding: 5px 0 5px 1.4rem;
+          background-color: #111013;
+          margin-right: 15px;
+
+          &:last-child {
+            // padding: 8px;
+            background-color: transparent;
+            color: black;
+            border: 2px solid #111013;
+          }
+        }
+      }
+    }
+
+    .product_details {
+      margin-top: 20px;
+
+      h1 {
+        letter-spacing: -0.025em;
+        line-height: 1.25;
+        font-size: calc(1.25rem + 0 * ((100vw - 576px) / 864));
+        font-weight: bold;
+        line-height: 1.6;
+        margin-bottom: 0;
+      }
+
+      p {
+        font-size: 0.9rem;
+        line-height: 1.6;
+        margin: 0;
+      }
+
+      b {
+        font-weight: 500;
+        font-size: 14px;
+      }
+    }
+  }
+}

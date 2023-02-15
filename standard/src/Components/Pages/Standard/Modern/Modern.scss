@@ -1,0 +1,119 @@
+@import "./../../../../../../home/src/scss/style.scss";
+
+#modern {
+  .container {
+    max-width: 1200px;
+  }
+
+  span,
+  h5 {
+    color: #161519;
+  }
+
+  h1 {
+    font-family: "DM Sans", sans-serif;
+  }
+}
+
+#modern {
+  // padding-top: 36px;
+  .modern_header {
+    span {
+      padding: 36px 0;
+      font-size: 0.9em;
+      font-weight: 600;
+      margin-right: 10px;
+      line-height: 1.6;
+      display: inline-block;
+
+      &:last-child {
+        font-weight: 400;
+      }
+    }
+  }
+
+  .table_img {
+    @extend %d-flex;
+    justify-content: space-between;
+
+    img {
+      width: 376px;
+    }
+
+    &:first-child {
+      margin-bottom: 24px;
+    }
+  }
+
+  .table_details {
+    max-width: 346px;
+
+    span {
+      background: rgba(150, 144, 162, 0.15);
+      font-weight: 500;
+      padding: 0.35rem 0.55rem;
+      line-height: 1;
+      font-size: 0.9rem;
+      border-radius: 0.35rem;
+    }
+
+    h1 {
+      margin: 0.75rem 0;
+      letter-spacing: -0.035em;
+      line-height: 1.15;
+      font-size: calc(2rem + 0.25 * ((100vw - 576px) / 864));
+      color: #111013;
+      font-weight: bold;
+    }
+
+    .h5 {
+      font-weight: 400;
+      font-size: 1.1rem;
+      margin-top: 1rem;
+      b {
+        font-weight: 600;
+      }
+    }
+
+    p {
+      font-size: 0.95em;
+      margin-top: 0.75rem;
+      font-weight: 400;
+      b {
+        font-weight: 700;
+      }
+    }
+    #border_p {
+      padding-bottom: 1rem;
+      border-bottom: 1px solid rgba(150, 144, 162, 0.15);
+    }
+    h4 {
+      line-height: 1;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+    span {
+      display: inline-block;
+      span {
+        background-color: transparent;
+        padding: 2px 4px;
+      }
+    }
+    .collab_right {
+      margin-top: 20px;
+      .btn {
+        @extend %collab_btn_copy;
+        display: inline-flex;
+        padding: 8px 0 8px 1.4rem;
+        background-color: #111013;
+        margin-right: 15px;
+        &:last-child {
+          padding: 8px;
+          background-color: transparent;
+          color: black;
+          border: 2px solid #111013;
+        }
+      }
+    }
+  }
+}
