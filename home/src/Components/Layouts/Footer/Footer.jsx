@@ -6,7 +6,7 @@ const Footer = () => {
     <footer id="footer1">
       <div className="container">
         <div className="row row_foot ">
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-6 col-sm-12 cf1">
             <ul className="foot1_box">
               <li>
                 <img
@@ -17,7 +17,7 @@ const Footer = () => {
               <li>Fb. / lg. / Tw. / Be.</li>
             </ul>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-6 col-sm-12 cf2">
             <div className="foot2_box">
               <h1>Rooterdam</h1>
               <b>Ohio Digital Media LTD.</b>
@@ -37,7 +37,7 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-6 col-sm-12 cf3">
             <div className="foot3_box">
               <h1>Work inquiries</h1>
               <p>Interested in working with us?</p>
@@ -51,7 +51,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-6 col-sm-12 cf4">
             <div className="foot4_box">
               <h1>Sign up for the newsletter</h1>
               <span>
@@ -69,7 +69,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-lg-6 col-md-6 col-sm-12">
             <div className="footer2_left f1">
               <p>
                 © 2016-2023 Colabrio. All rights reserved
@@ -77,7 +77,7 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 col-md-6 col-sm-12">
             <div className="footer2_left f2">
               <p>Security | Privacy & Cookie Policy | Terms of Service</p>
             </div>
