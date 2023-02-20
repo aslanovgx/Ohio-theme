@@ -22,6 +22,13 @@ const Work = () => {
                 <BsFillPlayCircleFill />
               </div>
               <h1>We work in the fields of UI/UX design and art direction.</h1>
+              <p>
+                Using year-over-year design approaches and latest techs, we will
+                ensure that your new website{" "}
+                <strong>
+                  will be visible, accessible, and treads lightly.
+                </strong>
+              </p>
               <ul>
                 <li>
                   <AiOutlinePlus />
