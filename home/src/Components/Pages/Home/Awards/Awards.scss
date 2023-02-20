@@ -1,0 +1,49 @@
+@import "./../../../../scss/style.scss";
+
+#awards {
+  .container {
+    max-width: 1200px;
+  }
+
+  h1 {
+    font-family: "DM Sans", sans-serif;
+  }
+}
+
+#awards {
+  .awards_left {
+    @extend %services_left_copy;
+
+    h1 {
+      font-size: calc(2rem + 0.25 * ((100vw - 576px) / 864));
+      max-width: 234px;
+    }
+  }
+
+  .awards_right {
+    // @extend %d-flex;
+    p {
+      font-size: 1rem;
+      color: #161519;
+      line-height: 1.6;
+      margin-bottom: 6vh;
+    }
+
+    .award_day {
+      width: calc(100% / 3);
+      display: inline-block;
+
+      .img {
+        img {
+          @extend %img-contain;
+          width: 163px;
+          margin-bottom: 20px;
+        }
+      }
+
+      p {
+        font-size: 0.95em;
+      }
+    }
+  }
+}

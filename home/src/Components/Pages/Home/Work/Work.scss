@@ -1,0 +1,81 @@
+@import "./../../../../scss/style.scss";
+
+#work {
+  .container {
+    max-width: 1200px;
+  }
+
+  .col-lg-7,
+  .col-lg-5 {
+    padding: 0;
+  }
+
+  h1,
+  li {
+    font-family: "DM Sans", sans-serif;
+  }
+}
+
+#work {
+  background-color: rgba(150, 144, 162, 0.06);
+
+  .work_img {
+    margin-top: 40px;
+
+    img {
+      @extend %img-cover;
+      width: 100%;
+      min-height: 30vh;
+      max-height: 310px;
+    }
+  }
+
+  .work_right {
+    background-color: #fff;
+    padding: 40px 0 55px 150px;
+    min-height: 100%;
+
+    .centre_icon {
+      @extend %centre_icon_copy;
+      position: static;
+    }
+
+    h1 {
+      font-size: calc(2rem + 0.25 * ((100vw - 576px) / 864));
+      letter-spacing: -0.035em;
+      line-height: 1.15;
+      color: #111013;
+      font-weight: 700;
+      margin: 0;
+      margin: 1rem 0;
+      max-width: 366px;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+
+      li {
+        @extend %d-flex;
+        justify-content: start;
+        gap: 10px;
+        color: #161519;
+        line-height: 1.6;
+        font-size: 1em;
+        letter-spacing: -0.02em;
+        line-height: 1.35;
+        font-weight: 700;
+        margin: 0;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  .work_logo {
+    @extend %img-contain;
+
+    img {
+      width: 124px;
+    }
+  }
+}

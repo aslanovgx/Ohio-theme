@@ -1,0 +1,92 @@
+@import "./../../../../scss/style.scss";
+
+#services {
+  .container {
+    max-width: 1200px;
+  }
+  h1 {
+    font-family: "DM Sans", sans-serif;
+  }
+}
+
+#services {
+  background-color: rgba(150, 144, 162, 0.06);
+  padding-top: 60px;
+  .services_left {
+    p {
+      position: relative;
+      margin-bottom: 1em;
+      font-size: 0.9em;
+      font-weight: 500;
+      color: #161519;
+
+      &::before {
+        position: absolute;
+        top: 35px;
+        left: 0;
+        background-color: rgba(99, 93, 111, 0.65);
+        width: 80%;
+        height: 1px;
+        content: "";
+      }
+    }
+
+    h1 {
+      padding-top: 0.35em;
+      font-size: calc(3.25rem * 0.88);
+      letter-spacing: -0.04em;
+      line-height: 1.05;
+      color: #111013;
+      font-weight: 700;
+      margin: 0;
+      max-width: 468px;
+    }
+  }
+
+  .services_right {
+    @extend %d-flex;
+    place-items: start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    .left,
+    .right {
+      max-width: 265px;
+    }
+    .left {
+      p {
+        @extend %services_left_p_copy;
+      }
+
+      h1 {
+        padding-top: 0.35em;
+        letter-spacing: -0.03em;
+        line-height: 1.2;
+        font-size: calc(1.5rem + 0.25 * ((100vw - 576px) / 864));
+        color: #111013;
+        font-weight: 700;
+        margin: 0;
+      }
+
+      h5 {
+        font-size: 1rem;
+        color: #161519;
+        line-height: 1.6;
+        font-weight: 400;
+        margin-top: 1rem;
+      }
+    }
+
+    .right {
+      p {
+        @extend %services_left_p_copy;
+      }
+
+      h1 {
+        @extend %services_left_h1_copy;
+      }
+      h5 {
+        @extend %services_left_h5_copy;
+      }
+    }
+  }
+}

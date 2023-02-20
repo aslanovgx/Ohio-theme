@@ -1,0 +1,42 @@
+@import "./../../../../../../home/src/scss/style.scss";
+
+#isotope {
+  .lists {
+    @extend %nav1_centre_copy;
+    li {
+      font-size: 0.95em;
+      color: #161519;
+      line-height: 1.6;
+    }
+    #special_li {
+      transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 0.35s;
+      position: relative;
+      overflow: hidden;
+      padding: 2px 0;
+      p {
+        &:nth-child(1) {
+          font-weight: 700;
+        }
+      }
+
+      @extend %footer_line_bottom_before_after_copy;
+    }
+  }
+  .row_left_right {
+    @extend %stickers_left_img_and_right_img_copy;
+    .left_img,
+    .right_img {
+      border-radius: 10px;
+
+      img {
+        border-radius: 10px;
+      }
+    }
+    .left_img {
+      height: 100%;
+      img {
+        height: 100%;
+      }
+    }
+  }
+}
