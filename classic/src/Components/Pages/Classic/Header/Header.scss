@@ -1,0 +1,52 @@
+@import "./../../../../scss/style.scss";
+
+#header {
+  .container {
+    max-width: 1200px;
+  }
+  h1 {
+    font-family: "DM Sans", sans-serif;
+  }
+}
+
+#header {
+  padding: 4rem 0;
+  .head_part {
+    @extend %d-flex;
+    flex-direction: column;
+    h1 {
+      font-size: 4rem;
+      letter-spacing: -0.035em;
+      line-height: 1;
+      color: #111013;
+      font-weight: bold;
+      margin: 0;
+    }
+    .bakery {
+      @extend %d-flex;
+      margin-top: 2rem;
+      span {
+        @extend %d-flex;
+        padding: 0 0.65rem;
+        border: 1px solid #635d6f;
+        font-size: 0.8em;
+        font-weight: 500;
+        height: 1.8rem;
+      }
+      #bakery_span1 {
+        background-color: #635d6f;
+        color: #fff;
+        border-radius: 20px 0 0 20px;
+      }
+      #bakery_span2 {
+        border-radius: 0 20px 20px 0;
+        color: #6b6a70;
+        transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 0.35s;
+        &:hover {
+          background-color: #9690a2;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

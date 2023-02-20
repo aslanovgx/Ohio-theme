@@ -1,0 +1,110 @@
+@import "./../../../../scss/style.scss";
+
+#collab {
+  .container {
+    max-width: 1200px;
+  }
+
+  .col-lg-6 {
+    padding: 0;
+  }
+
+  h1,
+  span {
+    font-family: "DM Sans", sans-serif;
+  }
+
+  .row_top {
+    position: relative;
+    @extend %before_copy;
+    padding: 10vh 0 5vh 0;
+  }
+}
+
+#collab {
+  background-color: #111013;
+
+  .collab_left {
+    p {
+      position: relative;
+      margin-bottom: 1em;
+      font-size: 0.9em;
+      font-weight: 500;
+      color: #82838a;
+    }
+
+    h1 {
+      letter-spacing: -0.04em;
+      line-height: 1.05;
+      color: #fff;
+      font-size: calc(3.25rem * 0.88);
+      font-weight: 700;
+      margin: 0;
+    }
+  }
+
+  .collab_right {
+    @extend %d-flex;
+    justify-content: end;
+
+    span {
+      @extend %d-flex;
+      gap: 5px;
+      color: white;
+      background-color: #d90a2c;
+      font-size: 0.95em;
+      border: 2px solid transparent;
+      padding: 10px 0 10px 1.4rem;
+      font-weight: 700;
+      cursor: pointer;
+      line-height: 1.5rem;
+      letter-spacing: -0.01em;
+      white-space: nowrap;
+
+      &:hover {
+        background-color: #161519;
+
+        .arrow_right {
+          .svg1 {
+            transform: translateX(100px);
+          }
+
+          .svg2 {
+            transform: translateX(0px);
+          }
+        }
+      }
+
+      .arrow_right {
+        position: relative;
+        @extend %d-flex;
+        overflow: hidden;
+        padding-right: 1.4rem;
+        svg {
+          font-size: 20px;
+          transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 0.35s;
+          transition: 0.3s ease-in-out;
+
+          &:nth-child(2) {
+            position: absolute;
+            top: 0;
+            left: 0;
+          }
+        }
+
+        .svg2 {
+          transform: translateX(-100px);
+        }
+      }
+    }
+  }
+
+  .collab_bottom {
+    margin-top: 1.5rem;
+
+    p {
+      @extend %awards_right_p_copy;
+      color: white;
+    }
+  }
+}
