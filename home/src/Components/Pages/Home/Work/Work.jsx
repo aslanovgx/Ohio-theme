@@ -41,7 +41,7 @@ const Work = () => {
         </div>
       </div>
       <div className="container">
-        <div className="row mb-4">
+        <div className="row mb-4 pt-5">
           <div className="col-lg-2 col-md-6 col-sm-12">
             <div className="work_logo">
               <img
@@ -91,7 +91,7 @@ const Work = () => {
             </div>
           </div>
         </div>
-        <div className="row mb-5">
+        <div className="row pb-5">
           <div className="col-lg-2 col-md-6 col-sm-12">
             <div className="work_logo">
               <img

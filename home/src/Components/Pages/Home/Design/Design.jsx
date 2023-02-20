@@ -2,8 +2,12 @@ import React from "react";
 import "./../Design/Design.scss";
 import Fade from "react-reveal/Fade";
 const Design = () => {
+  const [darkTheme, setDarkTheme] = React.useState(false);
   return (
-    <section id="design">
+    <section
+      id="design"
+      className={darkTheme ? "black-awards" : "light-awards"}
+    >
       <div className="container">
         <div className="row mb-5">
           <div className="col-lg-6">
