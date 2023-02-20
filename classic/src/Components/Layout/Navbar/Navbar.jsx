@@ -25,27 +25,31 @@ const Navbar = () => {
     const Element_Section = document.querySelector(".elements_portfolio");
     Element_Section.style.height = "auto";
     PluseNavbar.style.rotate = "135deg";
-  }
-  function CloseElemet() {
-    const Element = document.querySelector("#mob_el");
-    const Element_Section = document.querySelector(".elements_portfolio");
-    Element_Section.style.height = "0";
-    const PluseNavbar = document.querySelector(".plus_navbar");
-    PluseNavbar.style.rotate = "0deg";
+    if (Element.classList.contains("nav_remove")) {
+      Element.classList.remove("nav_remove");
+      PluseNavbar.style.transform = "translateY(0px)";
+      Element_Section.style.height = "auto";
+    } else {
+      Element.classList.add("nav_remove");
+      Element_Section.style.height = "0";
+      PluseNavbar.style.rotate = "0deg";
+    }
   }
   function OpenPortfolio() {
     const Element = document.querySelector("#mob_port");
     const Element_Section = document.querySelector(".portfolio_portfolio");
+    const PluseNavbar = document.querySelector(".plus2_navbar");
     Element_Section.style.height = "auto";
-    const PluseNavbar = document.querySelector(".plus2_navbar");
     PluseNavbar.style.rotate = "135deg";
-  }
-  function ClosePortfolio() {
-    const Element = document.querySelector("#mob_port");
-    const Element_Section = document.querySelector(".portfolio_portfolio");
-    Element_Section.style.height = "0";
-    const PluseNavbar = document.querySelector(".plus2_navbar");
-    PluseNavbar.style.rotate = "0deg";
+    if (Element.classList.contains("nav_remove")) {
+      Element.classList.remove("nav_remove");
+      Element_Section.style.height = "auto";
+      PluseNavbar.style.rotate = "135deg";
+    } else {
+      Element.classList.add("nav_remove");
+      Element_Section.style.height = "0";
+      PluseNavbar.style.rotate = "0deg";
+    }
   }
   return (
     <>
