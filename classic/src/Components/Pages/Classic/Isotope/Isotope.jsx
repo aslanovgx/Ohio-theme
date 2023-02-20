@@ -21,37 +21,37 @@ const Isotope = () => {
     Small_1.style.height = "auto";
     Small_1.style.width = "380px";
     Small_1.style.padding = "0 12px";
-    Small_1.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Small_1.style.transition = "0.4s ease-in-out";
 
     Small_2.style.height = "auto";
     Small_2.style.width = "380px";
     Small_2.style.padding = "0 12px";
-    Small_2.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Small_2.style.transition = "0.4s ease-in-out";
 
     Small_3.style.height = "auto";
     Small_3.style.width = "380px";
     Small_3.style.padding = "0 12px";
-    Small_3.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Small_3.style.transition = "0.4s ease-in-out";
 
     Small_4.style.height = "auto";
     Small_4.style.width = "380px";
     Small_4.style.padding = "0 12px";
-    Small_4.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Small_4.style.transition = "0.4s ease-in-out";
 
     Small_5.style.height = "auto";
     Small_5.style.width = "380px";
     Small_5.style.padding = "0 12px";
-    Small_5.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Small_5.style.transition = "0.4s ease-in-out";
 
     Big_1.style.height = "auto";
     Big_1.style.width = "760px";
     Big_1.style.padding = "0 12px";
-    Big_1.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Big_1.style.transition = "0.4s ease-in-out";
 
     Big_2.style.height = "auto";
     Big_2.style.width = "760x";
     Big_2.style.padding = "0 12px";
-    Big_2.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Big_2.style.transition = "0.4s ease-in-out";
   }
   function Click_Apps() {
     const Small_1 = document.querySelector("#small_1");
@@ -67,37 +67,37 @@ const Isotope = () => {
     Small_1.style.height = "0";
     Small_1.style.width = "0";
     Small_1.style.padding = "0";
-    Small_1.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Small_1.style.transition = "0.4s ease-in-out";
 
     Small_2.style.height = "0";
     Small_2.style.width = "0";
     Small_2.style.padding = "0";
-    Small_2.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Small_2.style.transition = "0.4s ease-in-out";
 
     Small_3.style.height = "auto";
     Small_3.style.width = "380px";
     Small_3.style.padding = "0 12px";
-    Small_3.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Small_3.style.transition = "0.4s ease-in-out";
 
     Small_4.style.height = "0";
     Small_4.style.width = "0";
     Small_4.style.padding = "0";
-    Small_4.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Small_4.style.transition = "0.4s ease-in-out";
 
     Small_5.style.height = "0";
     Small_5.style.width = "0";
     Small_5.style.padding = "0";
-    Small_5.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Small_5.style.transition = "0.4s ease-in-out";
 
     Big_2.style.height = "auto";
     Big_2.style.width = "760px";
     Big_2.style.padding = "0 12px";
-    Big_2.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Big_2.style.transition = "0.4s ease-in-out";
 
     Big_1.style.height = "0";
     Big_1.style.width = "0";
     Big_1.style.padding = "0";
-    Big_1.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Big_1.style.transition = "0.4s ease-in-out";
   }
   function Click_Branding() {
     const Small_1 = document.querySelector("#small_1");
@@ -118,32 +118,32 @@ const Isotope = () => {
     Small_2.style.height = "auto";
     Small_2.style.width = "380px";
     Small_2.style.padding = "0 12px";
-    Small_2.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Small_2.style.transition = "0.4s ease-in-out";
 
     Small_3.style.height = "0";
     Small_3.style.width = "0";
     Small_3.style.padding = "0";
-    Small_3.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Small_3.style.transition = "0.4s ease-in-out";
 
     Small_4.style.height = "0";
     Small_4.style.width = "0";
     Small_4.style.padding = "0";
-    Small_4.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Small_4.style.transition = "0.4s ease-in-out";
 
     Small_5.style.height = "0";
     Small_5.style.width = "0";
     Small_5.style.padding = "0";
-    Small_5.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Small_5.style.transition = "0.4s ease-in-out";
 
     Big_1.style.height = "auto";
     Big_1.style.width = "760px";
     Big_1.style.padding = "0 12px";
-    Big_1.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Big_1.style.transition = "0.4s ease-in-out";
 
     Big_2.style.height = "0";
     Big_2.style.width = "0";
     Big_2.style.padding = "0";
-    Big_2.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Big_2.style.transition = "0.4s ease-in-out";
   }
   function Click_Creative() {
     const Small_1 = document.querySelector("#small_1");
@@ -159,37 +159,37 @@ const Isotope = () => {
     Small_1.style.height = "0";
     Small_1.style.width = "0";
     Small_1.style.padding = "0";
-    Small_1.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Small_1.style.transition = "0.4s ease-in-out";
 
     Small_2.style.height = "0";
     Small_2.style.width = "0";
     Small_2.style.padding = "0";
-    Small_2.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Small_2.style.transition = "0.4s ease-in-out";
 
     Small_3.style.height = "0";
     Small_3.style.width = "0";
     Small_3.style.padding = "0";
-    Small_3.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Small_3.style.transition = "0.4s ease-in-out";
 
     Small_4.style.height = "auto";
     Small_4.style.width = "380px";
     Small_4.style.padding = "0 12px";
-    Small_4.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Small_4.style.transition = "0.4s ease-in-out";
 
     Small_5.style.height = "0";
     Small_5.style.width = "0";
     Small_5.style.padding = "0";
-    Small_5.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Small_5.style.transition = "0.4s ease-in-out";
 
     Big_1.style.height = "0";
     Big_1.style.width = "0";
     Big_1.style.padding = "0";
-    Big_1.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Big_1.style.transition = "0.4s ease-in-out";
 
     Big_2.style.height = "0";
     Big_2.style.width = "0";
     Big_2.style.padding = "0";
-    Big_2.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Big_2.style.transition = "0.4s ease-in-out";
   }
   function Click_ID() {
     const Small_1 = document.querySelector("#small_1");
@@ -205,37 +205,37 @@ const Isotope = () => {
     Small_1.style.height = "auto";
     Small_1.style.width = "380px";
     Small_1.style.padding = "0 12px";
-    Small_1.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Small_1.style.transition = "0.4s ease-in-out";
 
     Small_2.style.height = "auto";
     Small_2.style.width = "380px";
     Small_2.style.padding = "0 12px";
-    Small_2.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Small_2.style.transition = "0.4s ease-in-out";
 
     Small_3.style.height = "0";
     Small_3.style.width = "0";
     Small_3.style.padding = "0";
-    Small_3.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Small_3.style.transition = "0.4s ease-in-out";
 
     Small_4.style.height = "auto";
     Small_4.style.width = "380px";
     Small_4.style.padding = "0 12px";
-    Small_4.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Small_4.style.transition = "0.4s ease-in-out";
 
     Small_5.style.height = "auto";
     Small_5.style.width = "380px";
     Small_5.style.padding = "0 12px";
-    Small_5.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Small_5.style.transition = "0.4s ease-in-out;";
 
     Big_1.style.height = "auto";
     Big_1.style.width = "760px";
     Big_1.style.padding = "0 12px";
-    Big_1.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Big_1.style.transition = "0.4s ease-in-out";
 
     Big_2.style.height = "0";
     Big_2.style.width = "0";
     Big_2.style.padding = "0";
-    Big_2.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Big_2.style.transition = "0.4s ease-in-out";
   }
   function Click_Mock() {
     const Small_1 = document.querySelector("#small_1");
@@ -251,37 +251,37 @@ const Isotope = () => {
     Small_1.style.height = "0";
     Small_1.style.width = "0";
     Small_1.style.padding = "0";
-    Small_1.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Small_1.style.transition = "0.4s ease-in-out";
 
     Small_2.style.height = "0";
     Small_2.style.width = "0";
     Small_2.style.padding = "0";
-    Small_2.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Small_2.style.transition = "0.4s ease-in-out";
 
     Small_3.style.height = "0";
     Small_3.style.width = "0";
     Small_3.style.padding = "0";
-    Small_3.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Small_3.style.transition = "0.4s ease-in-out";
 
     Small_4.style.height = "auto";
     Small_4.style.width = "380px";
     Small_4.style.padding = "0 12px";
-    Small_4.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Small_4.style.transition = "0.4s ease-in-out";
 
     Small_5.style.height = "auto";
     Small_5.style.width = "380px";
     Small_5.style.padding = "0 12px";
-    Small_5.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Small_5.style.transition = "0.4s ease-in-out";
 
     Big_1.style.height = "0";
     Big_1.style.width = "0";
     Big_1.style.padding = "0";
-    Big_1.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Big_1.style.transition = "0.4s ease-in-out";
 
     Big_2.style.height = "0";
     Big_2.style.width = "0";
     Big_2.style.padding = "0";
-    Big_2.style.transition = "all cubic-bezier(.645,.045,.355,1) .5s;";
+    Big_2.style.transition = "0.4s ease-in-out";
   }
 
   return (
