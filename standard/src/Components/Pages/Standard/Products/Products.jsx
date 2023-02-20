@@ -6,14 +6,14 @@ const Products = () => {
     <section id="products">
       <div className="container">
         <div className="row">
-          <div className="col-lg-4">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="products_header">
               <h1>Related Products</h1>
             </div>
           </div>
         </div>
         <div className="row">
-          <div className="col-lg-4">
+          <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="product_box">
               <div className="product_img">
                 <img
@@ -44,7 +44,7 @@ const Products = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="product_box">
               <div className="product_img">
                 <img
@@ -75,7 +75,7 @@ const Products = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="product_box">
               <div className="product_img">
                 <img

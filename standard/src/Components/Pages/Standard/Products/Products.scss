@@ -19,6 +19,7 @@
 
 #products {
   margin-top: 64px;
+  padding: 40px 0;
 
   .products_header {
     h1 {
@@ -30,6 +31,9 @@
   }
 
   .product_box {
+    @media (max-width: 992px) {
+      margin-bottom: 30px;
+    }
     @media (max-width: 500px) {
       margin-bottom: 30px;
     }
@@ -65,10 +69,30 @@
         bottom: -50px;
         left: calc((376px - 308px) / 2);
 
-        @media (max-width: 500px) {
-          bottom: -150px;
-          margin: 0 auto;
+        @media (max-width: 752px) {
+          bottom: -100px;
+          left: 25px;
+          .btn {
+            font-size: 14px;
+            .arrow_right {
+              padding: 0;
+            }
+          }
         }
+        @media (max-width: 752px) {
+          bottom: -100px;
+          left: calc((100% - 250px) / 2);
+          .btn {
+            font-size: initial;
+            .arrow_right {
+              padding: initial;
+            }
+          }
+        }
+        // @media (max-width: 500px) {
+        //   bottom: -100px;
+        //   margin: 0 auto;
+        // }
 
         .btn {
           @extend %collab_btn_copy;
@@ -76,7 +100,9 @@
           padding: 5px 0 5px 1.4rem;
           background-color: #111013;
           margin-right: 15px;
-
+          @media (max-width: 752px) {
+            padding: 4px 6px;
+          }
           &:last-child {
             // padding: 8px;
             background-color: transparent;

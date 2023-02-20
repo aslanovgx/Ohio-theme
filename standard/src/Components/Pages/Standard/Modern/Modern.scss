@@ -36,7 +36,12 @@
     @extend %d-flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
+    @media (max-width: 808px) {
+      justify-content: center;
+      img {
+        margin-bottom: 40px;
+      }
+    }
     img {
       width: 376px;
 
@@ -48,6 +53,9 @@
 
     &:first-child {
       margin-bottom: 24px;
+      @media (max-width: 808px) {
+        margin-bottom: 0;
+      }
     }
   }
 
@@ -123,15 +131,18 @@
     .btn {
       @extend %collab_btn_copy;
       display: inline-flex;
-      padding: 8px 0 8px 1.4rem;
+      padding: 4px 1.4rem 4px 1.4rem;
       background-color: #111013;
-      margin-right: 15px;
-
+      // margin-right: 15px;
+      @media (max-width: 311px) {
+        padding: 4px 6px;
+      }
       &:last-child {
-        padding: 8px;
+        // padding: 8px;
         background-color: transparent;
         color: black;
         border: 2px solid #111013;
+        margin-left: 10px;
       }
     }
   }
