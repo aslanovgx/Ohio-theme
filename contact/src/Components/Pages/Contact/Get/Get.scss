@@ -1,0 +1,83 @@
+@import "./../../../../../../home/src/scss/style.scss";
+
+#get {
+  .container {
+    max-width: 1200px;
+  }
+
+  h1 {
+    font-family: "DM Sans", sans-serif;
+  }
+
+  .rt1 {
+    @media (max-width: 992px) {
+      justify-content: center;
+      text-align: -webkit-center;
+    }
+  }
+
+  .rb2 {
+    border-bottom: 1px solid #9996a1;
+    text-align: -webkit-center;
+
+    @media (max-width: 992px) {
+      .c_top {
+        margin-bottom: 40px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .c_bottom {
+        margin-bottom: 40px;
+      }
+    }
+  }
+}
+
+#get {
+  .get_header {
+    padding: 36px 0;
+
+    h5 {
+      @extend %line_bottom_after_before_copy;
+      font-size: 0.95em;
+      font-weight: 600;
+      display: inline-flex;
+      overflow: hidden;
+      margin: 0;
+    }
+
+    span {
+      font-size: 0.95em;
+      font-weight: 400;
+    }
+  }
+}
+
+.get_box {
+  h1 {
+    letter-spacing: -0.03em;
+    line-height: 1.2;
+    color: #111013;
+    font-weight: bold;
+    margin: 0;
+    font-size: calc(1.5rem + 0.25 * ((100vw - 576px) / 864));
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+    color: #161519;
+    line-height: 1.6;
+    font-size: 1.05rem;
+    margin-bottom: 1rem;
+  }
+
+  #special_p {
+    font-weight: bold;
+  }
+}
+
+.gb2 {
+  align-self: flex-end;
+}

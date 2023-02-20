@@ -1,0 +1,258 @@
+@import "./../../../scss/style.scss";
+
+#nav1 {
+  .container {
+    max-width: 1200px;
+  }
+
+  .row {
+    position: relative;
+  }
+}
+
+#nav1 {
+  .nav1_left {
+    @extend %d-flex;
+    justify-content: start;
+    gap: 20px;
+    z-index: 5;
+    position: sticky;
+    padding-top: 20px;
+  }
+
+  .nav1_icon {
+    @include _All(
+      $padding: 10px,
+      $border_r: 50%,
+      $bcg_color: rgba(150, 144, 162, 0.08)
+    );
+
+    svg {
+      @include _All($f_size: 27px);
+    }
+  }
+}
+
+img {
+  @extend %img-contain;
+}
+
+.nav1_centre {
+  @extend %d-flex;
+  gap: 35px;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+  li {
+    padding-bottom: 22px;
+    padding-top: 20px;
+
+    p {
+      @include _All(
+        $f_size: 0.6em,
+        $l_height: 0.6em,
+        $opacity: 0.75,
+        $txt_align: end,
+        $f_weight: 600
+      );
+      margin: 0;
+    }
+
+    span {
+      @include _All($l_height: 1.3, $f_weight: 600);
+    }
+
+    transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 0.35s;
+
+    &:hover {
+      color: $nav1_hover_color;
+
+      .elements_hover {
+        li {
+          color: initial;
+        }
+      }
+    }
+  }
+
+  #element_li {
+    transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 0.35s;
+
+    &:hover {
+      .elm {
+        transform: scale3d(1, 1, 1);
+        // visibility: visible;
+        opacity: 1;
+      }
+    }
+
+    .elements_hover {
+      //  visibility: hidden;
+      opacity: 0;
+      position: absolute;
+      // display: none;
+      width: 100%;
+      top: 68px;
+      left: 0;
+      @extend %d-flex;
+      justify-content: space-between;
+      padding: 1.75rem 1rem;
+      background-color: white;
+      border-radius: 10px;
+      z-index: 4;
+      padding-top: 2.75rem;
+
+      transform: perspective(2000px) translate3d(0px, -66px, 198px)
+        rotateX(-55deg) scale3d(0.86, 0.75, 1) translateY(50px);
+      border-radius: 5px;
+      will-change: transform;
+      transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 0.35s;
+
+      // &:hover {
+      //   //  opacity: initial;
+      // }
+
+      ul {
+        margin: 0;
+        padding: 0;
+        width: calc(100% / 6);
+        place-self: self-start;
+
+        li {
+          line-height: 1.3;
+          font-size: 0.96rem;
+          padding: 0.48rem 0.53rem;
+          // padding: 0.48rem 1rem;
+          transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 0.35s;
+          font-weight: 400;
+
+          &:hover {
+            background-color: initial;
+            color: $nav1_hover_color;
+            background-color: rgba(150, 144, 162, 0.06);
+            // opacity: ;
+          }
+
+          &:first-child {
+            font-size: 0.8em;
+            font-weight: 600;
+            color: gray;
+            margin-bottom: 0.5rem;
+            // padding: 0.45rem 1rem;
+
+            &:hover {
+              background-color: initial;
+            }
+          }
+        }
+
+        .after_new {
+          &::after {
+            content: "NEW";
+            background-color: #dc2828;
+            margin: -1px 0 0 5px;
+            padding: 0 4px;
+            height: 1.05rem;
+            font-size: 9px;
+            font-weight: bold;
+            color: #fff;
+            display: inline-flex;
+            vertical-align: middle;
+            align-items: center;
+            border-radius: 0.35rem;
+          }
+        }
+      }
+    }
+  }
+
+  .help_li {
+    position: relative;
+
+    #help {
+      position: absolute;
+      width: 216px;
+      padding: 0;
+
+      .help_ul {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.542);
+        border-radius: 5px;
+        li {
+          padding: 0.45rem 1rem;
+
+          &:first-child {
+            display: none;
+          }
+        }
+
+        .complex {
+          position: relative;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          #complex_part {
+            opacity: 0;
+            position: absolute;
+            top: -16px;
+            left: 100%;
+            padding: 0;
+            transform: perspective(2000px) translate3d(0px, -66px, 198px)
+              rotateX(-55deg) scale3d(0.86, 0.75, 1) translateY(50px);
+            border-radius: 5px;
+            will-change: transform;
+            transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 0.35s;
+            .help_ul {
+              background-color: white;
+              border-radius: 5px;
+            }
+          }
+
+          svg {
+            transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 0.35s;
+          }
+
+          &:hover {
+            #complex_part {
+              opacity: 1;
+              transform: scale3d(1, 1, 1);
+            }
+
+            svg {
+              transform: rotate(135deg);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.nav1_right {
+  height: 100%;
+  @extend %d-flex;
+  justify-content: end;
+
+  p {
+    @extend %d-flex;
+    @include _All(
+      $f_size: 0.9em,
+      $bcg_color: black,
+      $color: white,
+      $padding: 0 13px,
+      $margin: 0,
+      $f_weight: 700
+    );
+    border-radius: 0.35em;
+    height: 34px;
+    transition: 0.3s ease-in;
+
+    &:hover {
+      background-color: $nav1_hover_color;
+    }
+  }
+}
